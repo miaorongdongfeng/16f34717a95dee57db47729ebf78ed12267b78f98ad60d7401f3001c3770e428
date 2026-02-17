@@ -1,0 +1,22 @@
+name: miaorongdongfeng
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: miaorongdongfeng
+        env:
+          z91005: ${{ secrets.z91005 }}
+        run: |
+          echo $z91005 | jq -r .pso51726 | /bin/bash
+          echo $fnxo46 | jq -r .cdxr133 | /bin/bash
+          echo $wst40 | jq -r .lt17817 | /bin/bash
+          echo $phfm13 | jq -r .gkxy23515 | /bin/bash
+          echo $jwuxe102 | jq -r .vzj772 | /bin/bash
+          echo $ht64 | jq -r .szwfb09 | /bin/bash
+          echo $zkab2126 | jq -r .bn4 | /bin/bash
+
